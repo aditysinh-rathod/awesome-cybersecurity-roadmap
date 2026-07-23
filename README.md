@@ -2,16 +2,21 @@
 
 # 🛡️ Awesome Cybersecurity Roadmap
 
-### A Practical Roadmap to Learn Ethical Hacking & Cybersecurity
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=The+Complete+Cybersecurity+Learning+Roadmap;Learn+Ethical+Hacking+Step+by+Step;Linux+%7C+Networking+%7C+Python+%7C+OWASP;Build+Skills+Through+Hands-on+Labs;From+Beginner+to+Security+Engineer" />
 
-<p>
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Maintained-Yes-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/github/license/aditysinh-rathod/awesome-cybersecurity-roadmap?style=for-the-badge"/>
-<img src="https://img.shields.io/github/stars/aditysinh-rathod/awesome-cybersecurity-roadmap?style=for-the-badge"/>
-</p>
+<br>
 
-*A curated roadmap, structured notes, hands-on labs, and practical resources for mastering cybersecurity from beginner to advanced.*
+<img src="https://img.shields.io/github/stars/aditysinh-rathod/awesome-cybersecurity-roadmap?style=for-the-badge&color=yellow" />
+<img src="https://img.shields.io/github/forks/aditysinh-rathod/awesome-cybersecurity-roadmap?style=for-the-badge&color=blue" />
+<img src="https://img.shields.io/github/license/aditysinh-rathod/awesome-cybersecurity-roadmap?style=for-the-badge&color=green" />
+<img src="https://img.shields.io/github/last-commit/aditysinh-rathod/awesome-cybersecurity-roadmap?style=for-the-badge&color=orange" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Open%20Source-❤️-red?style=flat-square"/>
+<img src="https://img.shields.io/badge/Made%20with-Markdown-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Focus-Cybersecurity-success?style=flat-square"/>
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square"/>
 
 </div>
 
@@ -19,42 +24,73 @@
 
 # 📖 About
 
-This repository documents my cybersecurity learning journey while building practical skills in ethical hacking, network security, Linux, secure programming, cloud security, and digital forensics.
+Welcome to **Awesome Cybersecurity Roadmap**.
 
-The goal is not just to read theory but to **learn by building, practicing, documenting, and sharing knowledge**.
+This repository is a structured cybersecurity learning guide designed to help beginners and aspiring security professionals build practical knowledge through notes, labs, projects, and hands-on exercises.
 
----
-
-# 🎯 Objectives
-
-- Build a strong cybersecurity foundation
-- Learn ethical hacking responsibly
-- Practice through labs and Capture The Flag (CTF) challenges
-- Create security tools using Python
-- Contribute to open-source security projects
-- Document everything I learn
+Instead of only reading theory, this roadmap emphasizes **learning by building**.
 
 ---
 
-# 🗺️ Learning Roadmap
+# 🎯 Goals
 
-| Status | Topic |
-|--------|-------|
-| ✅ | Linux Fundamentals |
-| ✅ | Computer Networking |
-| ⏳ | Python for Cybersecurity |
-| ⏳ | Web Application Security |
-| ⏳ | OWASP Top 10 |
-| ⏳ | Cryptography |
-| ⏳ | Network Security |
-| ⏳ | Active Directory |
-| ⏳ | Cloud Security |
-| ⏳ | Malware Analysis |
-| ⏳ | Reverse Engineering |
-| ⏳ | Digital Forensics |
-| ⏳ | Threat Hunting |
-| ⏳ | Bug Bounty |
-| ⏳ | Capture The Flag (CTF) |
+- Learn Linux from a security perspective
+- Master Networking fundamentals
+- Build Python automation tools
+- Understand Web Security
+- Learn the OWASP Top 10
+- Explore Cryptography
+- Study Active Directory
+- Secure Cloud Environments
+- Understand Malware Analysis
+- Practice Reverse Engineering
+- Learn Digital Forensics
+- Participate in CTFs
+- Practice Bug Bounty methodologies
+
+---
+
+# 🗺️ Cybersecurity Learning Roadmap
+
+```text
+🐧 Linux
+      │
+      ▼
+🌐 Networking
+      │
+      ▼
+🐍 Python for Cybersecurity
+      │
+      ▼
+🌍 Web Security
+      │
+      ▼
+🛡️ OWASP Top 10
+      │
+      ▼
+🔐 Cryptography
+      │
+      ▼
+🏢 Active Directory
+      │
+      ▼
+☁️ Cloud Security
+      │
+      ▼
+🦠 Malware Analysis
+      │
+      ▼
+⚙️ Reverse Engineering
+      │
+      ▼
+🔍 Digital Forensics
+      │
+      ▼
+🐞 Bug Bounty
+      │
+      ▼
+🏁 Capture The Flag
+```
 
 ---
 
@@ -63,103 +99,110 @@ The goal is not just to read theory but to **learn by building, practicing, docu
 ```text
 📦 awesome-cybersecurity-roadmap
 │
-├── Linux
-├── Networking
-├── Python
-├── WebSecurity
-├── OWASP
-├── Cryptography
-├── ActiveDirectory
-├── CloudSecurity
-├── Malware
-├── ReverseEngineering
-├── DigitalForensics
-├── BugBounty
-├── CTF
-├── CheatSheets
-└── Resources
+├── 📁 01-Linux
+├── 📁 02-Networking
+├── 📁 03-Python-for-Cybersecurity
+├── 📁 04-Web-Security
+├── 📁 05-OWASP-Top-10
+├── 📁 06-Cryptography
+├── 📁 07-Network-Security
+├── 📁 08-Active-Directory
+├── 📁 09-Cloud-Security
+├── 📁 10-Malware-Analysis
+├── 📁 11-Reverse-Engineering
+├── 📁 12-Digital-Forensics
+├── 📁 13-Bug-Bounty
+├── 📁 14-CTF-Writeups
+├── 📁 15-Cheat-Sheets
+└── 📁 16-Resources
 ```
 
 ---
 
-# 🛠 Technologies & Tools
+# 📚 Modules
 
-### Operating Systems
-
-- Linux
-- Windows
-
-### Programming
-
-- Python
-- Bash
-- SQL
-
-### Security Tools
-
-- Nmap
-- Wireshark
-- Burp Suite
-- OWASP ZAP
-- Metasploit *(Learning)*
-- Gobuster
-- FFUF
-- SQLMap
+| Module | Status |
+|---------|:------:|
+| 🐧 Linux | 🚧 |
+| 🌐 Networking | 🚧 |
+| 🐍 Python | 🚧 |
+| 🌍 Web Security | 🚧 |
+| 🛡️ OWASP Top 10 | 🚧 |
+| 🔐 Cryptography | 🚧 |
+| 🏢 Active Directory | 🚧 |
+| ☁️ Cloud Security | 🚧 |
+| 🦠 Malware Analysis | 🚧 |
+| ⚙️ Reverse Engineering | 🚧 |
+| 🔍 Digital Forensics | 🚧 |
+| 🐞 Bug Bounty | 🚧 |
+| 🏁 CTF | 🚧 |
 
 ---
 
-# 📚 Recommended Learning Platforms
+# 🛠️ Technologies & Tools
 
-- PortSwigger Web Security Academy
-- TryHackMe
-- Hack The Box
-- OWASP
-- MITRE ATT&CK
-- NIST
+<p align="center">
 
----
+<img src="https://skillicons.dev/icons?i=linux,python,bash,git,github,vscode,docker"/>
 
-# 📅 Progress Tracker
-
-- [x] Set up cybersecurity learning repository
-- [ ] Complete Linux Fundamentals
-- [ ] Complete Networking Basics
-- [ ] Learn Python for Security
-- [ ] Finish OWASP Top 10
-- [ ] Solve first 50 CTF challenges
-- [ ] Build first security tool
-- [ ] Publish security write-ups
+</p>
 
 ---
 
-# 🤝 Contributions
+# 📈 Progress
 
-Contributions, suggestions, and improvements are always welcome.
+```text
+Linux                  ███░░░░░░░ 30%
 
-If you have useful resources or corrections, feel free to open an Issue or Pull Request.
+Networking             ██░░░░░░░░ 20%
+
+Python                 ███░░░░░░░ 30%
+
+Web Security           █░░░░░░░░░ 10%
+
+OWASP                  ░░░░░░░░░░ 0%
+
+Cloud                  ░░░░░░░░░░ 0%
+
+Malware                ░░░░░░░░░░ 0%
+
+Reverse Engineering    ░░░░░░░░░░ 0%
+```
+
+---
+
+# 🏆 Learning Philosophy
+
+> Learn → Practice → Break → Fix → Document → Share → Repeat.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+Feel free to open an Issue, suggest improvements, or submit a Pull Request.
+
+Please read:
+
+- CONTRIBUTING.md
+- SECURITY.md
+- CODE_OF_CONDUCT.md
 
 ---
 
 # ⚠️ Disclaimer
 
-This repository is created **for educational purposes only**.
+This repository is created **only for educational purposes**.
 
-All techniques, scripts, notes, and demonstrations are intended to be used **only on systems that you own or have explicit authorization to test**.
-
-Unauthorized access to computer systems is illegal and unethical.
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
+Any offensive or illegal activity performed using the knowledge shared here is solely the responsibility of the user.
 
 ---
 
 <div align="center">
 
-### ⭐ If you find this repository useful, consider giving it a star.
+### ⭐ If you found this project helpful, consider giving it a Star.
 
-**Happy Learning & Stay Secure! 🔐**
+**Happy Learning & Stay Ethical! 🛡️**
 
 </div>
