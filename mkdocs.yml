@@ -5,6 +5,7 @@ site_url: https://aditysinh-rathod.github.io/awesome-cybersecurity-roadmap/
 
 repo_name: aditysinh-rathod/awesome-cybersecurity-roadmap
 repo_url: https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -12,33 +13,47 @@ theme:
 
   palette:
     - scheme: default
-      primary: blue
-      accent: light blue
+      primary: indigo
+      accent: blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
     - scheme: slate
-      primary: blue
+      primary: indigo
       accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.instant
     - navigation.top
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
+
+    - toc.follow
+    - toc.integrate
+
     - search.highlight
     - search.share
     - search.suggest
+
     - content.code.copy
     - content.code.annotate
+    - content.tabs.link
 
 plugins:
   - search
@@ -49,13 +64,17 @@ markdown_extensions:
   - md_in_html
   - tables
   - footnotes
+  - def_list
+  - abbr
 
   - toc:
       permalink: true
 
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+
   - pymdownx.inlinehilite
 
   - pymdownx.tabbed:
@@ -74,7 +93,14 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
 
-nav:
-  - Home: index.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aditysinh-rathod
+
+  generator: false
 
 copyright: Copyright © 2026 Aditysinh Rathod
+
+nav:
+  - Home: index.md
