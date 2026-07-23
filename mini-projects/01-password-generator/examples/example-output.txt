@@ -1,0 +1,9 @@
+========================================
+🔑 Password Generator
+========================================
+
+Enter password length: 12
+
+Generated Password:
+
+Q!4m#Y9@Lp2$
