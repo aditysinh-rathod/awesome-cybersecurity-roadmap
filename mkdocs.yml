@@ -1,0 +1,53 @@
+site_name: Awesome Cybersecurity Roadmap
+site_description: Learn Cybersecurity from Beginner to Advanced
+site_author: Aditysinh Rathod
+site_url: https://aditysinh-rathod.github.io/awesome-cybersecurity-roadmap/
+
+repo_name: aditysinh-rathod/awesome-cybersecurity-roadmap
+repo_url: https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap
+
+theme:
+  name: material
+
+  palette:
+
+    - scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+
+    - scheme: slate
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+
+nav:
+  - Home: index.md
