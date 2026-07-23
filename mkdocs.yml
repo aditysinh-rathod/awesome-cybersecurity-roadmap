@@ -1,5 +1,5 @@
 site_name: Awesome Cybersecurity Roadmap
-site_description: Learn Cybersecurity from Beginner to Advanced
+site_description: Learn Cybersecurity from Beginner to Advanced with Roadmaps, Labs and Projects
 site_author: Aditysinh Rathod
 site_url: https://aditysinh-rathod.github.io/awesome-cybersecurity-roadmap/
 
@@ -9,14 +9,16 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-
   language: en
 
   logo: assets/logo.png
   favicon: assets/favicon.png
 
-  palette:
+  font:
+    text: Inter
+    code: JetBrains Mono
 
+  palette:
     - scheme: default
       primary: indigo
       accent: blue
@@ -31,10 +33,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-  font:
-    text: Inter
-    code: JetBrains Mono
-
   icon:
     repo: fontawesome/brands/github
 
@@ -44,10 +42,11 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
     - navigation.top
     - navigation.footer
-    - navigation.indexes
     - navigation.tracking
+    - navigation.path
 
     - toc.follow
     - toc.integrate
@@ -64,7 +63,6 @@ plugins:
   - search
 
 markdown_extensions:
-
   - admonition
   - attr_list
   - md_in_html
@@ -77,11 +75,11 @@ markdown_extensions:
       permalink: true
 
   - pymdownx.details
-
   - pymdownx.superfences
 
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
 
   - pymdownx.inlinehilite
 
@@ -102,18 +100,60 @@ extra_javascript:
   - javascripts/extra.js
 
 extra:
-
   generator: false
 
   social:
-
     - icon: fontawesome/brands/github
       link: https://github.com/aditysinh-rathod
 
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/aditysinh-rathod
-
-copyright: Copyright © 2026 Aditysinh Rathod
-
 nav:
-  - Home: index.md
+  - 🏠 Home: index.md
+
+  - 🚀 Getting Started:
+      - Introduction: getting-started.md
+
+  - 📚 Learning Roadmap:
+
+      - Overview: roadmap.md
+
+      - Linux:
+          - Overview: linux/index.md
+          - Linux Basics: linux/linux-basics.md
+          - File System: linux/file-system.md
+          - Permissions: linux/permissions.md
+          - Bash: linux/bash.md
+          - SSH: linux/ssh.md
+
+      - Networking:
+          - Overview: networking/index.md
+          - OSI Model: networking/osi.md
+          - TCP/IP: networking/tcp-ip.md
+          - DNS: networking/dns.md
+          - HTTP: networking/http.md
+          - Wireshark: networking/wireshark.md
+
+      - Python:
+          - Overview: python/index.md
+          - Python Basics: python/basics.md
+          - Requests: python/requests.md
+          - Socket Programming: python/socket-programming.md
+          - Scapy: python/scapy.md
+          - Cryptography: python/cryptography.md
+
+      - Web Security:
+          - Overview: web-security/index.md
+          - OWASP Top 10: web-security/owasp-top-10.md
+          - XSS: web-security/xss.md
+          - SQL Injection: web-security/sql-injection.md
+          - Authentication: web-security/authentication.md
+
+  - 🛠 Mini Projects: projects.md
+
+  - 🧪 Hands-on Labs: labs.md
+
+  - 📖 Resources: resources.md
+
+  - ❤️ About: about.md
+
+copyright: |
+  Copyright © 2026 Aditysinh Rathod • Awesome Cybersecurity Roadmap
