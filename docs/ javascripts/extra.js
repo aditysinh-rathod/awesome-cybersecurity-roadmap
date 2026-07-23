@@ -1,1 +1,1 @@
-console.log("Awesome Cybersecurity Roadmap Loaded 🚀");
+console.log("Cybersecurity Roadmap Loaded");
