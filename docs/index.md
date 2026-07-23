@@ -1,63 +1,77 @@
 <div class="hero">
 
-# 🛡️ Awesome Cybersecurity Roadmap
+<h1>🛡️ Awesome Cybersecurity Roadmap</h1>
 
-## Learn • Practice • Build • Secure
+<h2>Learn • Practice • Build • Secure</h2>
 
-Master Cybersecurity from **Beginner → Advanced** with structured notes, labs, projects, and Python automation.
+<p>
+Master Cybersecurity from <strong>Beginner → Advanced</strong> with structured roadmaps,
+hands-on labs, Python automation, and real-world projects.
+</p>
 
 <div class="hero-buttons">
-
 <a href="#roadmap">🚀 Start Learning</a>
-
-<a href="https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap">⭐ GitHub</a>
-
+<a href="https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap" target="_blank">⭐ GitHub Repository</a>
 </div>
 
 </div>
 
-# 📊 Statistics
+---
+
+# 📊 Project Statistics
 
 <div class="grid">
 
 <div class="card">
-
-<div class="stats">100+</div>
-
-### Lessons
-
-Comprehensive cybersecurity documentation.
-
+<h3>📚 100+</h3>
+<p><strong>Lessons</strong></p>
+<p>Comprehensive cybersecurity documentation covering beginner to advanced concepts.</p>
 </div>
 
 <div class="card">
-
-<div class="stats">20+</div>
-
-### Projects
-
-Real Python security tools.
-
+<h3>💻 20+</h3>
+<p><strong>Mini Projects</strong></p>
+<p>Build practical Python security tools and automation scripts.</p>
 </div>
 
 <div class="card">
-
-<div class="stats">80+</div>
-
-### Labs
-
-Hands-on practical exercises.
-
+<h3>🧪 80+</h3>
+<p><strong>Hands-on Labs</strong></p>
+<p>Practice with real-world cybersecurity exercises.</p>
 </div>
 
 <div class="card">
+<h3>🌍 Open Source</h3>
+<p><strong>Community Driven</strong></p>
+<p>Contributions are welcome from developers and security enthusiasts.</p>
+</div>
 
-<div class="stats">Open</div>
+</div>
 
-### Source
+---
 
-Community-driven documentation.
+# ✨ Why Choose This Roadmap?
 
+<div class="grid">
+
+<div class="card">
+<h3>🎯 Beginner Friendly</h3>
+<p>Start from zero with a structured learning path.</p>
+</div>
+
+<div class="card">
+<h3>🛠 Hands-on Learning</h3>
+<p>Every topic includes practical labs and exercises.</p>
+</div>
+
+<div class="card">
+<h3>📂 Real Projects</h3>
+<p>Create portfolio-worthy cybersecurity projects.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Career Focused</h3>
+<p>Prepare for internships, certifications, and jobs.</p>
 </div>
 
 </div>
@@ -71,49 +85,59 @@ Community-driven documentation.
 <div class="grid">
 
 <div class="card">
-
-### 🐧 Linux
+<h3>🐧 Linux</h3>
 
 - Linux Basics
-- Bash
-- SSH
 - File System
 - Permissions
+- Bash
+- SSH
 
 </div>
 
 <div class="card">
+<h3>🌐 Networking</h3>
 
-### 🌐 Networking
-
+- OSI Model
 - TCP/IP
 - DNS
 - HTTP
 - Wireshark
-- Routing
 
 </div>
 
 <div class="card">
+<h3>🐍 Python</h3>
 
-### 🐍 Python
-
+- Python Basics
 - Requests
-- Sockets
+- Socket Programming
 - Scapy
-- Hashing
 - Cryptography
 
 </div>
 
 <div class="card">
-
-### 🌍 Web Security
+<h3>🛡 Web Security</h3>
 
 - OWASP Top 10
+- Authentication
 - XSS
 - SQL Injection
-- Authentication
+
+</div>
+
+<div class="card">
+<h3>☁️ Cloud Security</h3>
+
+Coming Soon
+
+</div>
+
+<div class="card">
+<h3>🦠 Malware Analysis</h3>
+
+Coming Soon
 
 </div>
 
@@ -121,66 +145,75 @@ Community-driven documentation.
 
 ---
 
-# 🛠️ Mini Projects
+# 🛠 Featured Mini Projects
 
 <div class="grid">
 
 <div class="card">
-
-### 🔑 Password Generator
-
-Generate strong passwords.
-
+<h3>🔑 Password Generator</h3>
+Generate secure passwords.
 </div>
 
 <div class="card">
-
-### 🔒 Hash Generator
-
-Generate SHA256 & MD5 hashes.
-
+<h3>#️⃣ Hash Generator</h3>
+Generate SHA256, SHA1 and MD5 hashes.
 </div>
 
 <div class="card">
-
-### 🌐 DNS Lookup
-
-Resolve domains.
-
+<h3>🌐 DNS Lookup Tool</h3>
+Resolve domain names.
 </div>
 
 <div class="card">
+<h3>📡 Port Scanner</h3>
+Scan TCP ports using Python.
+</div>
 
-### 📡 Port Scanner
+<div class="card">
+<h3>📄 Log Analyzer</h3>
+Analyze security logs.
+</div>
 
-Scan TCP ports.
-
+<div class="card">
+<h3>🛡 File Integrity Checker</h3>
+Monitor files using SHA256 hashing.
 </div>
 
 </div>
 
 ---
 
-# 📈 Progress
+# 📈 Roadmap Progress
 
 | Module | Status |
 |---------|:------:|
-| Linux | ✅ |
-| Networking | ✅ |
-| Python | ✅ |
-| Web Security | 🚧 |
-| Malware Analysis | ⏳ |
-| Cloud Security | ⏳ |
+| Linux | ✅ Complete |
+| Networking | ✅ Complete |
+| Python for Cybersecurity | ✅ Complete |
+| Web Security | 🚧 In Progress |
+| Cloud Security | ⏳ Planned |
+| Malware Analysis | ⏳ Planned |
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+- Improve documentation
+- Add new labs
+- Create projects
+- Submit Pull Requests
 
 ---
 
 <div align="center">
 
-## ⭐ Star the Repository
+## ⭐ Support the Project
 
-If you like this project, consider starring it on GitHub.
+If you like this roadmap, consider giving it a **GitHub Star**.
 
-Made with ❤️ using MkDocs Material
+Made with ❤️ using **MkDocs Material**
 
 © 2026 Aditysinh Rathod
 
