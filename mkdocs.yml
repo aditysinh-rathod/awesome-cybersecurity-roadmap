@@ -8,32 +8,40 @@ repo_url: https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap
 
 theme:
   name: material
+  language: en
+
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/shield-lock
 
   palette:
-
     - scheme: default
       primary: teal
       accent: green
       toggle:
         icon: material/weather-night
-        name: Dark Mode
+        name: Switch to dark mode
 
     - scheme: slate
       primary: teal
       accent: green
       toggle:
         icon: material/weather-sunny
-        name: Light Mode
+        name: Switch to light mode
 
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.top
     - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
     - search.highlight
     - search.suggest
+    - search.share
     - content.code.copy
+    - content.code.annotate
 
 plugins:
   - search
@@ -42,12 +50,17 @@ markdown_extensions:
   - admonition
   - tables
   - attr_list
+  - md_in_html
+  - footnotes
   - toc:
       permalink: true
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
   - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
 
 nav:
   - Home: index.md
