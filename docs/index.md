@@ -1,8 +1,12 @@
+<div class="hero-image">
+<img src="assets/hero.png" alt="Awesome Cybersecurity Roadmap">
+</div>
+
 # 🛡️ Awesome Cybersecurity Roadmap
 
-> Learn • Practice • Build • Secure
+> ### Learn • Practice • Build • Secure
 
-Master cybersecurity from **Beginner → Advanced** with structured learning paths, hands-on labs, Python automation, and real-world security projects.
+Master Cybersecurity from **Beginner → Advanced** through structured learning paths, hands-on labs, Python automation, and real-world projects.
 
 [:rocket: Start Learning](#learning-roadmap){ .md-button .md-button--primary }
 [:simple-github: GitHub Repository](https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap){ .md-button }
@@ -15,19 +19,19 @@ Master cybersecurity from **Beginner → Advanced** with structured learning pat
 
 - :material-book-open-page-variant:{ .lg .middle } **100+ Lessons**
 
-    Comprehensive cybersecurity documentation.
+    Structured notes covering Linux, Networking, Python, Web Security, Cloud Security, Malware Analysis, and more.
 
-- :material-laptop:{ .lg .middle } **20+ Mini Projects**
+- :material-code-tags:{ .lg .middle } **20+ Mini Projects**
 
-    Build practical Python security tools.
+    Build real cybersecurity tools including Port Scanner, Password Generator, DNS Lookup, Log Analyzer, and more.
 
 - :material-flask-outline:{ .lg .middle } **80+ Hands-on Labs**
 
-    Practice with real-world cybersecurity exercises.
+    Practice using Linux, Wireshark, Python, Scapy, Hashing, Cryptography, and OWASP concepts.
 
 - :material-github:{ .lg .middle } **Open Source**
 
-    Community-driven and contribution friendly.
+    Community-driven roadmap. Fork, contribute, and improve cybersecurity education together.
 
 </div>
 
@@ -39,23 +43,25 @@ Master cybersecurity from **Beginner → Advanced** with structured learning pat
 
 - :material-school:{ .lg .middle } **Beginner Friendly**
 
-    Learn from zero with a structured roadmap.
+    No experience required. Learn step-by-step from the fundamentals.
 
 - :material-tools:{ .lg .middle } **Hands-on Learning**
 
-    Every topic includes practical examples and labs.
+    Every module includes practical exercises and labs.
 
 - :material-folder-code:{ .lg .middle } **Portfolio Projects**
 
-    Build projects you can showcase.
+    Build projects that strengthen your GitHub profile and resume.
 
 - :material-briefcase:{ .lg .middle } **Career Focused**
 
-    Prepare for internships and cybersecurity jobs.
+    Prepare for internships, certifications, and cybersecurity careers.
 
 </div>
 
 ---
+
+<a id="learning-roadmap"></a>
 
 ## 🚀 Learning Roadmap
 
@@ -63,16 +69,20 @@ Master cybersecurity from **Beginner → Advanced** with structured learning pat
 
 - :material-linux:{ .lg .middle } **Linux**
 
-    - Bash
-    - SSH
-    - Permissions
+    - Linux Basics
     - File System
+    - Bash
+    - Permissions
+    - SSH
+    - Processes
 
 - :material-lan:{ .lg .middle } **Networking**
 
+    - OSI Model
     - TCP/IP
     - DNS
-    - HTTP
+    - HTTP/HTTPS
+    - Routing
     - Wireshark
 
 - :material-language-python:{ .lg .middle } **Python**
@@ -81,45 +91,63 @@ Master cybersecurity from **Beginner → Advanced** with structured learning pat
     - Socket Programming
     - Scapy
     - Cryptography
+    - Hashing
+    - Automation
 
-- :material-web:{ .lg .middle } **Web Security**
+- :material-shield-lock:{ .lg .middle } **Web Security**
 
     - OWASP Top 10
+    - Authentication
     - XSS
     - SQL Injection
-    - Authentication
+    - CSRF
+    - Session Security
+
+- :material-cloud-lock:{ .lg .middle } **Cloud Security**
+
+    - AWS
+    - Azure
+    - IAM
+    - Docker
+    - Kubernetes
+
+- :material-bug:{ .lg .middle } **Malware Analysis**
+
+    - Static Analysis
+    - Dynamic Analysis
+    - Reverse Engineering
 
 </div>
 
 ---
 
-## 🛠️ Featured Projects
+## 🛠️ Featured Mini Projects
 
 <div class="grid cards" markdown>
 
 - 🔑 **Password Generator**
 
-    Generate secure passwords.
+    Generate secure random passwords.
 
 - 🔒 **Hash Generator**
 
-    SHA256 / SHA1 / MD5.
+    SHA256, SHA1 and MD5 hashing.
 
-- 🌐 **DNS Lookup**
+- 🌐 **DNS Lookup Tool**
 
-    Resolve domains.
+    Resolve domains and DNS records.
 
 - 📡 **Port Scanner**
 
-    Scan TCP ports.
+    Scan TCP ports using Python.
 
 - 📄 **Log Analyzer**
 
-    Analyze security logs.
+    Detect suspicious log entries.
 
 - 🛡️ **File Integrity Checker**
 
-    Detect file modifications.
+    Monitor file changes using SHA256.
 
 </div>
 
@@ -131,7 +159,7 @@ Master cybersecurity from **Beginner → Advanced** with structured learning pat
 |---------|:------:|
 | Linux | ✅ Complete |
 | Networking | ✅ Complete |
-| Python | ✅ Complete |
+| Python for Cybersecurity | ✅ Complete |
 | Web Security | 🚧 In Progress |
 | Cloud Security | ⏳ Planned |
 | Malware Analysis | ⏳ Planned |
@@ -140,29 +168,36 @@ Master cybersecurity from **Beginner → Advanced** with structured learning pat
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
-- Improve documentation
-- Add new labs
-- Create new projects
-- Submit Pull Requests
+You can help by:
+
+- 📚 Improving documentation
+- 🧪 Adding new labs
+- 💻 Creating projects
+- 🐛 Fixing bugs
+- 🔀 Submitting Pull Requests
 
 ---
 
 ## ⭐ Support the Project
 
-If you found this roadmap useful:
+If you found this project useful:
 
 - ⭐ Star the repository
 - 🍴 Fork the project
-- 📝 Contribute
+- 🤝 Contribute
 - 📢 Share it with others
 
 ---
 
 <div align="center">
 
-**Made with ❤️ using MkDocs Material**
+### 🛡️ Awesome Cybersecurity Roadmap
+
+**Learn • Practice • Build • Secure**
+
+Made with ❤️ using **MkDocs Material**
 
 © 2026 Aditysinh Rathod
 
