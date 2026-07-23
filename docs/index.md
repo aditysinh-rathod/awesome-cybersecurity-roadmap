@@ -1,35 +1,71 @@
 # 🛡️ Awesome Cybersecurity Roadmap
 
-Welcome to the **Awesome Cybersecurity Roadmap**.
-
-This project helps you learn cybersecurity from **Beginner → Advanced** through structured notes, hands-on labs, Python security tools, and mini projects.
+> Learn **Cybersecurity** from **Beginner → Advanced** with structured notes, hands-on labs, Python tools, and real-world projects.
 
 ---
 
-## 🚀 Learning Path
+## 🚀 Roadmap
 
-- 🐧 Linux
-- 🌐 Networking
-- 🐍 Python for Cybersecurity
-- 🛡️ Web Security
-- 🔐 Cryptography
-- ☁️ Cloud Security
-- 🏴 CTF
-- 🧪 Hands-on Labs
+<div class="grid cards" markdown>
+
+- :material-linux:{ .lg .middle } **Linux**
+
+    Learn Linux fundamentals, file systems, permissions, SSH, Bash scripting, and administration.
+
+- :material-lan:{ .lg .middle } **Networking**
+
+    Understand TCP/IP, DNS, HTTP, routing, switching, Wireshark, and networking fundamentals.
+
+- :material-language-python:{ .lg .middle } **Python**
+
+    Build security automation tools using Python.
+
+- :material-web:{ .lg .middle } **Web Security**
+
+    Learn OWASP Top 10, authentication, sessions, XSS, SQL Injection, CSRF, and more.
+
+</div>
 
 ---
 
-## ⭐ Mini Projects
+## 🧰 Mini Projects
 
-- Password Generator
-- Hash Generator
-- Port Scanner
-- Banner Grabber
-- Log Analyzer
-- File Integrity Checker
+<div class="grid cards" markdown>
+
+- 🔑 Password Generator
+
+- 🔐 Hash Generator
+
+- 🌐 Port Scanner
+
+- 📡 Banner Grabber
+
+- 📜 Log Analyzer
+
+- 🛡️ File Integrity Checker
+
+</div>
 
 ---
 
-## 📚 Open Source
+## 📊 Progress
 
-Contributions are welcome!
+| Module | Status |
+|---------|:------:|
+| Linux | ✅ |
+| Networking | ✅ |
+| Python | ✅ |
+| Web Security | 🚧 |
+| OWASP | ⏳ |
+| Cloud Security | ⏳ |
+
+---
+
+## ⭐ Why this Roadmap?
+
+- Structured learning
+- Hands-on labs
+- Open source
+- Real Python projects
+- Beginner → Advanced
+- Community contributions welcome
