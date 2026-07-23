@@ -1,183 +1,168 @@
-<div class="hero">
+# 🛡️ Awesome Cybersecurity Roadmap
 
-<h1>🛡️ Awesome Cybersecurity Roadmap</h1>
+> Learn • Practice • Build • Secure
 
-<h2>Learn • Practice • Build • Secure</h2>
+Master cybersecurity from **Beginner → Advanced** with structured learning paths, hands-on labs, Python automation, and real-world security projects.
 
-<p>
-Master Cybersecurity from <strong>Beginner → Advanced</strong> through structured roadmaps,
-hands-on labs, Python automation, and real-world security projects.
-</p>
+[:rocket: Start Learning](#learning-roadmap){ .md-button .md-button--primary }
+[:simple-github: GitHub Repository](https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap){ .md-button }
 
-<div class="hero-buttons">
-<a href="#roadmap">🚀 Start Learning</a>
-<a href="https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap" target="_blank">⭐ GitHub</a>
-</div>
+---
+
+## 📊 Project Statistics
+
+<div class="grid cards" markdown>
+
+- :material-book-open-page-variant:{ .lg .middle } **100+ Lessons**
+
+    Comprehensive cybersecurity documentation.
+
+- :material-laptop:{ .lg .middle } **20+ Mini Projects**
+
+    Build practical Python security tools.
+
+- :material-flask-outline:{ .lg .middle } **80+ Hands-on Labs**
+
+    Practice with real-world cybersecurity exercises.
+
+- :material-github:{ .lg .middle } **Open Source**
+
+    Community-driven and contribution friendly.
 
 </div>
 
 ---
 
-# 📊 Project Statistics
+## ✨ Why Choose This Roadmap?
 
-<div class="grid">
+<div class="grid cards" markdown>
 
-<div class="card">
-<div class="stats">100+</div>
-<h3>Lessons</h3>
-<p>Comprehensive documentation covering cybersecurity fundamentals to advanced topics.</p>
-</div>
+- :material-school:{ .lg .middle } **Beginner Friendly**
 
-<div class="card">
-<div class="stats">20+</div>
-<h3>Mini Projects</h3>
-<p>Hands-on Python tools to strengthen practical security skills.</p>
-</div>
+    Learn from zero with a structured roadmap.
 
-<div class="card">
-<div class="stats">80+</div>
-<h3>Labs</h3>
-<p>Practice real-world cybersecurity techniques with guided exercises.</p>
-</div>
+- :material-tools:{ .lg .middle } **Hands-on Learning**
 
-<div class="card">
-<div class="stats">Open</div>
-<h3>Source</h3>
-<p>Community-driven project with contributions welcome from everyone.</p>
-</div>
+    Every topic includes practical examples and labs.
+
+- :material-folder-code:{ .lg .middle } **Portfolio Projects**
+
+    Build projects you can showcase.
+
+- :material-briefcase:{ .lg .middle } **Career Focused**
+
+    Prepare for internships and cybersecurity jobs.
 
 </div>
 
 ---
 
-# 🚀 Learning Roadmap
+## 🚀 Learning Roadmap
 
-<a id="roadmap"></a>
+<div class="grid cards" markdown>
 
-<div class="grid">
+- :material-linux:{ .lg .middle } **Linux**
 
-<div class="card">
-<h3>🐧 Linux</h3>
-<p>File System • Bash • Permissions • SSH • Processes</p>
-<p><strong>Status:</strong> ✅ Complete</p>
-</div>
+    - Bash
+    - SSH
+    - Permissions
+    - File System
 
-<div class="card">
-<h3>🌐 Networking</h3>
-<p>OSI • TCP/IP • DNS • HTTP • Wireshark • Routing</p>
-<p><strong>Status:</strong> ✅ Complete</p>
-</div>
+- :material-lan:{ .lg .middle } **Networking**
 
-<div class="card">
-<h3>🐍 Python</h3>
-<p>Requests • Sockets • Scapy • Cryptography • Hashing</p>
-<p><strong>Status:</strong> ✅ Complete</p>
-</div>
+    - TCP/IP
+    - DNS
+    - HTTP
+    - Wireshark
 
-<div class="card">
-<h3>🛡️ Web Security</h3>
-<p>OWASP Top 10 • XSS • SQL Injection • Authentication</p>
-<p><strong>Status:</strong> 🚧 In Progress</p>
-</div>
+- :material-language-python:{ .lg .middle } **Python**
 
-<div class="card">
-<h3>☁️ Cloud Security</h3>
-<p>AWS • Azure • IAM • Containers • Kubernetes</p>
-<p><strong>Status:</strong> ⏳ Planned</p>
-</div>
+    - Requests
+    - Socket Programming
+    - Scapy
+    - Cryptography
 
-<div class="card">
-<h3>🦠 Malware Analysis</h3>
-<p>Static Analysis • Dynamic Analysis • Reverse Engineering</p>
-<p><strong>Status:</strong> ⏳ Planned</p>
-</div>
+- :material-web:{ .lg .middle } **Web Security**
+
+    - OWASP Top 10
+    - XSS
+    - SQL Injection
+    - Authentication
 
 </div>
 
 ---
 
-# 🛠️ Featured Mini Projects
+## 🛠️ Featured Projects
 
-<div class="grid">
+<div class="grid cards" markdown>
 
-<div class="card">
-<h3>🔑 Password Generator</h3>
-<p>Create secure random passwords.</p>
-</div>
+- 🔑 **Password Generator**
 
-<div class="card">
-<h3>🔒 Hash Generator</h3>
-<p>Generate SHA-256, SHA-1 and MD5 hashes.</p>
-</div>
+    Generate secure passwords.
 
-<div class="card">
-<h3>🌐 DNS Lookup</h3>
-<p>Resolve domains and inspect DNS records.</p>
-</div>
+- 🔒 **Hash Generator**
 
-<div class="card">
-<h3>📡 Port Scanner</h3>
-<p>Scan TCP ports using Python sockets.</p>
-</div>
+    SHA256 / SHA1 / MD5.
 
-<div class="card">
-<h3>📄 Log Analyzer</h3>
-<p>Analyze logs and identify suspicious activity.</p>
-</div>
+- 🌐 **DNS Lookup**
 
-<div class="card">
-<h3>🛡️ File Integrity Checker</h3>
-<p>Monitor files using SHA-256 checksums.</p>
-</div>
+    Resolve domains.
+
+- 📡 **Port Scanner**
+
+    Scan TCP ports.
+
+- 📄 **Log Analyzer**
+
+    Analyze security logs.
+
+- 🛡️ **File Integrity Checker**
+
+    Detect file modifications.
 
 </div>
 
 ---
 
-# 📈 Learning Progress
+## 📈 Progress
 
-| Module | Progress |
-|---------|:--------:|
-| Linux | ✅ |
-| Networking | ✅ |
-| Python | ✅ |
-| Web Security | 🚧 |
-| Cloud Security | ⏳ |
-| Malware Analysis | ⏳ |
-
----
-
-# 🌟 Why This Roadmap?
-
-- 📚 Structured learning from beginner to advanced
-- 💻 Hands-on labs and mini projects
-- 🛡️ Practical cybersecurity techniques
-- 🚀 Portfolio-ready projects
-- 🤝 Open-source and community driven
+| Module | Status |
+|---------|:------:|
+| Linux | ✅ Complete |
+| Networking | ✅ Complete |
+| Python | ✅ Complete |
+| Web Security | 🚧 In Progress |
+| Cloud Security | ⏳ Planned |
+| Malware Analysis | ⏳ Planned |
 
 ---
 
-# 🤝 Contribute
+## 🤝 Contributing
 
 Contributions are welcome!
 
-You can help by:
+- Improve documentation
+- Add new labs
+- Create new projects
+- Submit Pull Requests
 
-- Improving documentation
-- Adding labs
-- Building new projects
-- Fixing bugs
-- Submitting Pull Requests
+---
+
+## ⭐ Support the Project
+
+If you found this roadmap useful:
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 📝 Contribute
+- 📢 Share it with others
 
 ---
 
 <div align="center">
 
-## ⭐ Support the Project
-
-If this roadmap helps you, consider giving it a **GitHub Star**.
-
-Made with ❤️ using **MkDocs Material**
+**Made with ❤️ using MkDocs Material**
 
 © 2026 Aditysinh Rathod
 
