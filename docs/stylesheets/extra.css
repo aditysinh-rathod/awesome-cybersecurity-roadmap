@@ -1,170 +1,115 @@
-/* ===========================
+/* ==========================================================
    Awesome Cybersecurity Roadmap
-   Professional Theme
-=========================== */
+   Professional Theme v2
+========================================================== */
 
 :root{
     --primary:#2563eb;
     --primary-hover:#1d4ed8;
-    --background:#f8fafc;
-    --surface:#ffffff;
-    --text:#1e293b;
-    --muted:#64748b;
-    --border:#e2e8f0;
-    --success:#16a34a;
+    --success:#22c55e;
     --radius:18px;
 }
 
-[data-md-color-scheme="slate"]{
-    --background:#0f172a;
-    --surface:#1e293b;
-    --text:#f8fafc;
-    --muted:#cbd5e1;
-    --border:#334155;
-    --primary:#3b82f6;
-    --primary-hover:#2563eb;
-}
-
-body{
-    background:var(--background);
-}
-
-/* Container */
+/* Layout */
 
 .md-grid{
-    max-width:1400px;
+    max-width:1350px;
 }
 
 /* Hero */
 
-.hero{
-    background:linear-gradient(135deg,#0f172a,#1e293b);
-    color:white;
-    border-radius:28px;
-    padding:90px 40px;
+.md-typeset h1:first-child{
+    font-size:3.4rem;
     text-align:center;
-    margin-bottom:70px;
-}
-
-.hero h1{
-    font-size:64px;
     font-weight:800;
-    color:#ffffff !important;
-    margin-bottom:20px;
-    line-height:1.1;
+    margin-bottom:.4rem;
 }
 
-.hero h2{
-    color:#e2e8f0 !important;
-    font-weight:500;
-    margin-bottom:25px;
+.md-typeset blockquote{
+    text-align:center;
+    font-size:1.3rem;
+    border:none;
+    color:#64748b;
 }
 
-.hero p{
-    color:#cbd5e1 !important;
-    font-size:21px;
-    max-width:900px;
-    margin:auto;
-    line-height:1.7;
-}
-
-.hero-buttons{
-    margin-top:45px;
-}
-
-.hero-buttons a{
-    display:inline-block;
-    margin:8px;
-    padding:16px 34px;
-    background:var(--primary);
-    color:#fff !important;
-    border-radius:14px;
-    text-decoration:none;
-    font-weight:700;
-    transition:.3s;
-}
-
-.hero-buttons a:hover{
-    background:var(--primary-hover);
-    transform:translateY(-4px);
-    box-shadow:0 12px 25px rgba(37,99,235,.35);
-}
-
-/* Section Titles */
-
-.md-typeset h1{
-    font-weight:800;
-}
-
-.md-typeset h2{
-    font-weight:700;
-}
-
-/* Grid */
-
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:24px;
-    margin:30px 0;
-}
-
-/* Cards */
-
-.card{
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:20px;
-    padding:28px;
-    transition:.3s;
-    height:100%;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 40px rgba(0,0,0,.12);
-}
-
-.card h2,
-.card h3{
-    margin-top:0;
-}
-
-.card p{
-    color:var(--muted);
-}
-
-/* Statistics */
-
-.stats{
-    font-size:52px;
-    font-weight:800;
-    color:var(--primary);
-    margin-bottom:10px;
-}
-
-/* Tables */
-
-.md-typeset table{
-    width:100%;
-    border-radius:16px;
-    overflow:hidden;
-}
-
-.md-typeset table th{
-    background:var(--primary);
-    color:white;
-}
-
-.md-typeset table td,
-.md-typeset table th{
-    padding:14px;
+.md-typeset p{
+    font-size:1.05rem;
+    line-height:1.8;
 }
 
 /* Buttons */
 
 .md-button{
     border-radius:12px;
+    padding:.8rem 1.6rem;
+    font-weight:700;
+    transition:.3s;
+}
+
+.md-button:hover{
+    transform:translateY(-3px);
+}
+
+/* Statistics Cards */
+
+.grid.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:22px;
+    margin-top:2rem;
+}
+
+.grid.cards > ul{
+    display:contents;
+}
+
+.grid.cards li{
+    list-style:none;
+    margin:0;
+    padding:28px;
+    border-radius:18px;
+    transition:.3s;
+    border:1px solid #e5e7eb;
+    background:white;
+}
+
+.grid.cards li:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+    border-color:var(--primary);
+}
+
+[data-md-color-scheme="slate"] .grid.cards li{
+    background:#161b22;
+    border-color:#30363d;
+}
+
+.grid.cards strong{
+    display:block;
+    font-size:1.15rem;
+    margin-bottom:.5rem;
+}
+
+.grid.cards p{
+    color:#64748b;
+}
+
+/* Tables */
+
+.md-typeset table{
+    width:100%;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.md-typeset table th{
+    background:#2563eb;
+    color:white;
+}
+
+.md-typeset table td,
+.md-typeset table th{
+    padding:14px;
 }
 
 /* Navigation */
@@ -177,54 +122,29 @@ body{
     box-shadow:none;
 }
 
-/* Code */
-
-.highlight{
-    border-radius:16px;
-}
-
-/* Images */
-
-img{
-    border-radius:12px;
-}
-
 /* Footer */
 
-footer{
-    margin-top:70px;
+.md-footer{
+    margin-top:60px;
 }
 
-/* Smooth */
+/* Icons */
 
-*{
-    scroll-behavior:smooth;
+.md-typeset .lg{
+    font-size:2rem;
+    color:#2563eb;
 }
 
 /* Responsive */
 
 @media (max-width:900px){
 
-.hero{
-    padding:70px 25px;
+.md-typeset h1:first-child{
+    font-size:2.4rem;
 }
 
-.hero h1{
-    font-size:42px;
-}
-
-.hero h2{
-    font-size:24px;
-}
-
-.hero p{
-    font-size:18px;
-}
-
-.hero-buttons a{
-    display:block;
-    margin:12px auto;
-    max-width:260px;
+.grid.cards{
+    grid-template-columns:1fr;
 }
 
 }
