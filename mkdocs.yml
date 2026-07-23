@@ -10,14 +10,15 @@ theme:
   name: material
   language: en
 
+  custom_dir: docs
+
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+
   icon:
-    logo: material/shield-lock
     repo: fontawesome/brands/github
 
-  favicon: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/material/.icons/material/shield-lock.svg
-
   palette:
-
     - scheme: default
       primary: teal
       accent: green
@@ -36,18 +37,15 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.top
     - navigation.instant
+    - navigation.top
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
-
-    - search.highlight
-    - search.suggest
-    - search.share
-
     - toc.integrate
-
+    - search.highlight
+    - search.share
+    - search.suggest
     - content.code.copy
     - content.code.annotate
 
@@ -79,9 +77,6 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-nav:
-  - Home: index.md
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -90,4 +85,13 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/aditysinh-rathod/
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
 copyright: Copyright © 2026 Aditysinh Rathod
+
+nav:
+  - Home: index.md
