@@ -9,9 +9,14 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+
   language: en
 
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+
   palette:
+
     - scheme: default
       primary: indigo
       accent: blue
@@ -59,6 +64,7 @@ plugins:
   - search
 
 markdown_extensions:
+
   - admonition
   - attr_list
   - md_in_html
@@ -71,7 +77,9 @@ markdown_extensions:
       permalink: true
 
   - pymdownx.details
+
   - pymdownx.superfences
+
   - pymdownx.highlight:
       anchor_linenums: true
 
@@ -94,11 +102,16 @@ extra_javascript:
   - javascripts/extra.js
 
 extra:
+
+  generator: false
+
   social:
+
     - icon: fontawesome/brands/github
       link: https://github.com/aditysinh-rathod
 
-  generator: false
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/aditysinh-rathod
 
 copyright: Copyright © 2026 Aditysinh Rathod
 
