@@ -1,11 +1,13 @@
 site_name: Awesome Cybersecurity Roadmap
-site_description: Learn Cybersecurity from Beginner to Advanced with Roadmaps, Labs and Projects
+site_description: Learn Cybersecurity from Beginner to Advanced with Roadmaps, Labs, Projects, and Hands-on Labs.
 site_author: Aditysinh Rathod
 site_url: https://aditysinh-rathod.github.io/awesome-cybersecurity-roadmap/
 
 repo_name: aditysinh-rathod/awesome-cybersecurity-roadmap
 repo_url: https://github.com/aditysinh-rathod/awesome-cybersecurity-roadmap
 edit_uri: edit/main/docs/
+
+copyright: Copyright © 2026 Aditysinh Rathod
 
 theme:
   name: material
@@ -19,6 +21,7 @@ theme:
     code: JetBrains Mono
 
   palette:
+
     - scheme: default
       primary: indigo
       accent: blue
@@ -33,9 +36,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-  icon:
-    repo: fontawesome/brands/github
-
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -48,16 +48,19 @@ theme:
     - navigation.tracking
     - navigation.path
 
-    - toc.follow
-    - toc.integrate
-
     - search.highlight
     - search.share
     - search.suggest
 
+    - toc.follow
+    - toc.integrate
+
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+
+  icon:
+    repo: fontawesome/brands/github
 
 plugins:
   - search
@@ -79,7 +82,6 @@ markdown_extensions:
 
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
 
   - pymdownx.inlinehilite
 
@@ -107,53 +109,58 @@ extra:
       link: https://github.com/aditysinh-rathod
 
 nav:
+
   - 🏠 Home: index.md
 
   - 🚀 Getting Started:
       - Introduction: getting-started.md
 
-  - 📚 Learning Roadmap:
+  - 🐧 Linux:
+      - Overview: linux/index.md
+      - Linux Basics: linux/linux-basics.md
+      - File System: linux/file-system.md
+      - Permissions: linux/permissions.md
+      - Bash Scripting: linux/bash.md
+      - SSH: linux/ssh.md
+      - Processes: linux/processes.md
+      - Package Management: linux/package-management.md
+      - Networking Commands: linux/networking-commands.md
 
-      - Overview: roadmap.md
+  - 🌐 Networking:
+      - Overview: networking/index.md
+      - OSI Model: networking/osi.md
+      - TCP/IP Model: networking/tcp-ip.md
+      - IP Addressing: networking/ip-addressing.md
+      - Subnetting: networking/subnetting.md
+      - DNS: networking/dns.md
+      - HTTP & HTTPS: networking/http.md
+      - Common Ports: networking/ports.md
+      - Routing: networking/routing.md
+      - Switching: networking/switching.md
+      - Firewalls: networking/firewalls.md
+      - VPN: networking/vpn.md
+      - Wireshark: networking/wireshark.md
+      - Networking Cheat Sheet: networking/networking-cheat-sheet.md
 
-      - Linux:
-          - Overview: linux/index.md
-          - Linux Basics: linux/linux-basics.md
-          - File System: linux/file-system.md
-          - Permissions: linux/permissions.md
-          - Bash: linux/bash.md
-          - SSH: linux/ssh.md
+  - 🐍 Python for Cybersecurity:
+      - Coming Soon: python/index.md
 
-      - Networking:
-          - Overview: networking/index.md
-          - OSI Model: networking/osi.md
-          - TCP/IP: networking/tcp-ip.md
-          - DNS: networking/dns.md
-          - HTTP: networking/http.md
-          - Wireshark: networking/wireshark.md
+  - 🌐 Web Security:
+      - Coming Soon: web-security/index.md
 
-      - Python:
-          - Overview: python/index.md
-          - Python Basics: python/basics.md
-          - Requests: python/requests.md
-          - Socket Programming: python/socket-programming.md
-          - Scapy: python/scapy.md
-          - Cryptography: python/cryptography.md
+  - 🔐 Cryptography:
+      - Coming Soon: cryptography/index.md
 
-      - Web Security:
-          - Overview: web-security/index.md
-          - OWASP Top 10: web-security/owasp-top-10.md
-          - XSS: web-security/xss.md
-          - SQL Injection: web-security/sql-injection.md
-          - Authentication: web-security/authentication.md
+  - ☁️ Cloud Security:
+      - Coming Soon: cloud-security/index.md
 
-  - 🛠 Mini Projects: projects.md
+  - 🦠 Malware Analysis:
+      - Coming Soon: malware-analysis/index.md
 
-  - 🧪 Hands-on Labs: labs.md
+  - 🛡️ Digital Forensics:
+      - Coming Soon: digital-forensics/index.md
 
-  - 📖 Resources: resources.md
+  - 🎯 Interview Questions:
+      - Coming Soon: interview-questions/index.md
 
-  - ❤️ About: about.md
-
-copyright: |
-  Copyright © 2026 Aditysinh Rathod • Awesome Cybersecurity Roadmap
+  - 🤝 Contributing: ../README.md
